@@ -11,3 +11,14 @@ body {
     align-items: center;
     color: #fff; /* Warna teks putih agar kontras dengan latar belakang */
 }
+
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang semi-transparan */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
