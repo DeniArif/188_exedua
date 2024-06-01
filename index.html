@@ -8,38 +8,44 @@
 </head>
 <body>
     <header>
-        <h1>Halaman Album BMTH</h1>
+        <h1>Selamat Datang di Halaman Multimedia</h1>
     </header>
     
     <section id="content">
-        <div class="BMTH-container">
-        <h2>Video</h2>
-        <video controls>
-            <source src="Bring Me The Horizon - Drown.mp4" type="video/mp4">
-            Browser Anda tidak mendukung pemutar video.
-        </video>
+        <div class="media-container">
+            <h2>Video</h2>
+            <video controls>
+                <source src="Bring Me The Horizon - Drown.mp4" type="video/mp4">
+                Browser Anda tidak mendukung pemutar video.
+            </video>
         </div>
 
-        <h2>Deskripsi</h2>
-        <p>Bring Me the Horizon (BMTH) adalah grup musik rock Inggris yang dibentuk 
-           di Sheffield pada tahun 2004. Saat ini grup ini digawangi vokalis Oliver Sykes,
-           gitaris Lee Malia, bassis Matt Kean, dan drummer Matt Nicholls. Saat ini mereka 
-           berada di bawah kontrak dengan RCA Records secara global dan Columbia Records 
-           secara eksklusif di Amerika Serikat.
+        <div class="media-container">
+            <h2>Deskripsi</h2>
+            <p>Bring Me the Horizon (BMTH) adalah grup musik rock Inggris yang dibentuk 
+                di Sheffield pada tahun 2004. Saat ini grup ini digawangi vokalis Oliver Sykes,
+                gitaris Lee Malia, bassis Matt Kean, dan drummer Matt Nicholls. Saat ini mereka 
+                berada di bawah kontrak dengan RCA Records secara global dan Columbia Records 
+                secara eksklusif di Amerika Serikat.</p>
+        </div>
 
-        </p>
+        <div class="media-container">
+            <h2>Lagu</h2>
+            <audio controls>
+                <source src="music/song.mp3" type="audio/mpeg">
+                Browser Anda tidak mendukung pemutar audio.
+            </audio>
+        </div>
 
-        <h2>Lagu</h2>
-        <audio controls>
-            <source src="music/song.mp3" type="audio/mpeg">
-            Browser Anda tidak mendukung pemutar audio.
-        </audio>
+        <div class="media-container">
+            <h2>Foto</h2>
+            <img src="images/photo.jpg" alt="Pemandangan Indah">
+        </div>
 
-        <h2>Foto</h2>
-        <img src="images/photo.jpg" alt="Pemandangan Indah">
-
-        <h2>Halaman Slide</h2>
-        <button onclick="goToSlide2()">Ke Halaman Slide 2</button>
+        <div class="media-container">
+            <h2>Halaman Slide</h2>
+            <button onclick="goToSlide2()">Ke Halaman Slide 2</button>
+        </div>
     </section>
 
     <script src="script.js"></script>
