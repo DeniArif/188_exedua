@@ -3,21 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Slide 2</title>
+    <title>Form Fans BMTH</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Halaman Slide 2</h1>
-</body>
-<section id="content">
-    <h2>Selamat Datang di Slide 2</h2>
-    <p>Ini adalah konten untuk halaman slide kedua.</p>
-    <button onclick="goBack()">Kembali ke Halaman Utama</button>
-</section>
-<script>
-    function goBack() {
+    <header>
+        <h1>Form Fans BMTH</h1>
+    </header>
+    
+    <section id="content">
+        <div class="media-container">
+            <h2>Silakan Isi Form Berikut</h2>
+            <form id="fanForm">
+                <label for="name">Nama:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="favoriteSong">Lagu Favorit:</label><br>
+                <input type="text" id="favoriteSong" name="favoriteSong" required><br>
+                
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                
+                <button type="submit">Kirim</button>
+            </form>
+            <button onclick="goBack()">Kembali ke Halaman Utama</button>
+        </div>
+    </section>
+
+    <script>
+        function goBack() {
             window.location.href = 'index.html';
         }
-</script>
 
+        document.getElementById('fanForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Form berhasil dikirim!');
+        });
+    </script>
+</body>
 </html>
