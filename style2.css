@@ -2,15 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('background.jpg'); /* Ganti dengan path gambar latar belakang Anda */
+    background-image: url('background.jpg'); 
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #fff; /* Warna teks putih agar kontras dengan latar belakang */
-}
+    color: #fff; 
 
 
 
@@ -29,7 +28,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang semi-transparan */
+    background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 10px;
     margin-top: 20px;
 }
@@ -37,4 +36,12 @@ header {
 .media-container {
     margin: 20px 0;
     text-align: center;
+}
+
+h2 {
+    color: #ffeb3b;
+}
+
+label {
+    color: #ffeb3b; 
 }
