@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web dengan Multimedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Halaman Multimedia</h1>
+    </header>
+    
+    <section id="content">
+        <h2>Video</h2>
+        <video controls>
+            <source src="videos/video.mp4" type="video/mp4">
+            Browser Anda tidak mendukung pemutar video.
+        </video>
+
+        <h2>Deskripsi</h2>
+        <p>Ini adalah deskripsi dari video yang ditampilkan di atas. Video ini menunjukkan pemandangan alam yang indah.</p>
+
+        <h2>Lagu</h2>
+        <audio controls>
+            <source src="music/song.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung pemutar audio.
+        </audio>
+
+        <h2>Foto</h2>
+        <img src="images/photo.jpg" alt="Pemandangan Indah">
+
+        <h2>Halaman Slide</h2>
+        <button onclick="goToSlide2()">Ke Halaman Slide 2</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
